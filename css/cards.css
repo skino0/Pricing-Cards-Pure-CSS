@@ -1,0 +1,192 @@
+
+#cards {
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-20%);
+    display:flex;
+    width:90vw;
+}
+
+#card1 {
+    width:258px;
+    height:355px;
+    background-color: #40332C;
+    left:0;
+    position:absolute;
+    border-radius:10px;
+}
+
+#card2 {
+    width:258px;
+    height:355px;
+    background-color:#3D5747;
+    left:50%;
+    transform:translateX(-50%);
+    position:absolute;
+    border-radius:10px;
+
+}
+
+#card3 {
+    width:258px;
+    height:355px;
+    background-color:#252D42;
+    right:0;
+    position:absolute;
+    border-radius:10px;
+    
+}
+
+
+
+/*Hovers*//*Hovers*//*Hovers*/
+
+#card1:hover{cursor:pointer;transition-duration:.2s;transform:scale(0.95);background-color: transparent;}
+#card2:hover{cursor:pointer;transition-duration:.2s;transform:translateX(-50%)scale(0.95);background-color: transparent;}
+#card3:hover{cursor:pointer;transition-duration:.2 s;transform:scale(0.95);background-color: transparent;}
+
+
+
+
+
+/* Half BG's 1*/ /* Half BG's 1*/
+#cardhalfbg1 {
+    position:absolute;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 69%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 69%);
+    top:-30px;
+    left:0;
+    height:250px;
+    width:105%;
+    margin:0 -2% 0 -3%;
+    background-color:#8F6C46;
+    z-index:2;
+}
+
+#cardhalfbg1.hoveredup1 {
+    top:0px;
+    transition-delay:.2s;
+    transition-duration:.3s;
+    border-radius:40px 40px 0 0;
+
+}
+
+#cardhalfbgreverse1 {
+    position:absolute;
+    -webkit-clip-path: polygon(0 9%, 100% 30%, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 100% 30%, 100% 100%, 0 100%);
+    bottom:-60px;
+    left:0;
+    height:252px;
+    width:105%;
+    margin:0 -2% 0 -3%;
+    background-color:#DFD2A6;
+    z-index:3;
+
+}
+
+#cardhalfbgreverse1.hovereddown1 {
+    transition-delay:.2s;
+    transition-duration:.3s;
+    bottom:-60px;
+    border-radius:30px 40px 40px 70px;
+
+}
+
+
+/* Half BG's 2*/ /* Half BG's 2*/
+
+#cardhalfbg2 {
+    position:absolute;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 69%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 69%);
+    top:-30px;
+    left:0;
+    height:250px;
+    width:105%;
+    margin:0 -2% 0 -3%;
+    background-color:#41908A;
+    z-index:2;
+}
+
+#cardhalfbg2.hoveredup2 {
+    top:0px;
+    transition-delay:.2s;
+    transition-duration:.3s;
+    border-radius:40px 40px 0 0;
+
+}
+
+#cardhalfbgreverse2 {
+    position:absolute;
+    -webkit-clip-path: polygon(0 9%, 100% 30%, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 100% 30%, 100% 100%, 0 100%);
+    bottom:-60px;
+    left:0;
+    height:252px;
+    width:105%;
+    margin:0 -2% 0 -3%;
+    background-color:#AEC391;
+    z-index:3;
+
+}
+
+#cardhalfbgreverse2.hovereddown2 {
+    transition-delay:.2s;
+    transition-duration:.3s;
+    bottom:-60px;
+    border-radius:30px 40px 40px 70px;
+
+}
+
+
+
+/* Half BG's 3*/ /* Half BG's 3*/
+
+#cardhalfbg3 {
+    position:absolute;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 69%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 69%);
+    top:-30px;
+    left:0;
+    height:250px;
+    width:105%;    
+    margin:0 -2% 0 -3%;
+    background-color:#378AA9;
+    z-index:2;
+}
+
+#cardhalfbg3.hoveredup3 {
+    top:0px;
+    transition-delay:.2s;
+    transition-duration:.3s;
+    border-radius:40px 40px 0 0;
+
+}
+
+#cardhalfbgreverse3 {
+    position:absolute;
+    -webkit-clip-path: polygon(0 9%, 100% 30%, 100% 100%, 0 100%);
+    clip-path: polygon(0 9%, 100% 30%, 100% 100%, 0 100%);
+    bottom:-60px;
+    left:0;
+    height:252px;
+    width:105%;
+    margin:0 -2% 0 -3%;
+    background-color:#E0E9CB;
+    z-index:3;
+
+}
+
+#cardhalfbgreverse3.hovereddown3 {
+    transition-delay:.2s;
+    transition-duration:.3s;
+    bottom:-60px;
+    border-radius:30px 40px 40px 70px;
+
+}
+
+
+
+

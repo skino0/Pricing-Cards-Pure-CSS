@@ -1,0 +1,43 @@
+/*Services */
+
+#servicesposition {
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-70%);
+    border-right:4px rgba(100, 100, 100, 0.88) solid;
+    border-left:4px rgba(100, 100, 100, 0.88) solid;
+    padding:0 20px 0 20px;
+    width:68%;
+    max-height:100px!important;
+    animation-fill-mode:both;
+    animation:showservices 2s forwards;
+    display:table;
+}
+
+@keyframes showservices {
+    0%{
+        height:0%;
+
+    }
+    100%{
+        height:100%;
+
+    }
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.cardservice {
+    font-size:17px;
+    line-height:1.5em;
+    letter-spacing:2.8px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    color:rgba(0, 0, 0, 0.84);
+    text-shadow:-2px 0px 1px #ffffff,
+    2px 0px 1px #aaaaaa;
+    font-weight:900;
+    transition-duration:.25s;
+
+}

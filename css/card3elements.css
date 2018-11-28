@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+/* CARD 3  Title - starting - price *//* CARD 3  Title - starting - price */
+/* CARD 3  Title - starting - price *//* CARD 3  Title - starting - price */
+#title3{
+    position:absolute;
+    font-size:33px;
+    line-height:45px;
+    letter-spacing:5.5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:800;
+    color:rgba(255,255,255,.8);
+    border-bottom:2px rgba(0,0,0,.88) solid;
+    padding:0 0 2px 0;
+    display:inline-block;
+    left:50%;
+    transform:translate(-50%);
+}
+
+#title3.hovtitle3 {
+    animation-delay:.4s!important;
+    animation-fill-mode:both!important;
+    animation:hovtitle2 .25s forwards!important;
+
+}
+
+@keyframes hovtitle3 {
+
+    0%{
+        border-bottom:2px rgba(0,0,0,.88) solid;
+    }
+    100%{
+        border-bottom:2px rgba(0,0,0,0) solid;
+    }
+}
+
+
+#start3{
+    position:absolute;
+    font-size:17px;
+    margin:54px 0 0 0;
+    letter-spacing:1.5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    color:rgba(255,255,255,.55);
+    left:50%;
+    transform:translate(-50%);
+
+
+}
+
+
+#price3{
+    position:absolute;
+    font-size:37px;
+    margin:95px 0 0 0;
+    letter-spacing:.5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:800;
+    color:rgba(255,255,255);
+    left:50%;
+    transform:translate(-50%);
+    text-shadow:-1.5px -1.5px 0px rgba(0,0,0,.88),
+    1.5px 1.5px 0px rgb(73, 73, 73);
+}
+
+
+#price3.hovprice3 {
+    animation-delay:.5s!important;
+    animation-fill-mode:both!important;
+    animation:hovprice1 .55s forwards!important;
+
+}
+
+@keyframes hovprice3 {
+
+    0%{
+        transform:translate(-50%)scale(1);
+        text-shadow:-1.5px -1.5px 0px rgba(0,0,0,.88),
+        1.5px 1.5px 0px rgb(73, 73, 73);
+        font-weight:800;
+
+
+    }
+    100%{
+        transform:translate(-50%)scale(1.1);
+        text-shadow:-1.5px -1.5px 0px rgba(226, 226, 226, 0.88);
+        font-weight:600;
+
+
+    }
+
+}
+
+/* End CARD 3  Title - starting - price *//* CARD 3  Title - starting - price */
+
+
+
+
+
+
+
+
+
